@@ -1,6 +1,6 @@
 # COVID-19-project
 
-Final Project Proposal
+Project Description
 
 Our research project will explore the relationship between oppressive governments and the effectiveness of its Covid-19 pandemic response. We hypothesize that an oppressive government is less likely to have a robust and effective plan to combat the Covid-19 pandemic.  
 
