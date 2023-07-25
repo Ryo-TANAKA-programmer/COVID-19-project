@@ -1,7 +1,5 @@
-setwd("C:\\ParkerR")
-getwd()  
+setwd(getwd())
 list.files()
-
 library(tidyverse)
 library(stargazer)
 library(haven)
@@ -11,11 +9,6 @@ library(forcats)
 library(purrr)
 library(ggplot2)
 library(tidyr)
-
-
-##############################
-### CONNER'S DATA CLEANING ###
-##############################
 
 
 CountryData <- read.csv("time_series_covid19_vaccine_doses_admin_global.csv")
@@ -534,6 +527,3 @@ VaxData <- read.csv("time_series_covid19_vaccine_global.csv")
   #Save the csv
   
   write.csv(ProjectData, file = "ProjectDataApr30.csv", row.names = FALSE)
-  
-  
-  
